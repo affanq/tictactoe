@@ -48,7 +48,6 @@ import './index.css';
       }
     
       render() {
-          console.log('render')
         const winner = calculateWinner(this.state.squares);
         let status;
         if(winner) {
@@ -115,7 +114,6 @@ import './index.css';
 
 
   function calculateWinner(squares) {
-      console.log('calculate winner')
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
